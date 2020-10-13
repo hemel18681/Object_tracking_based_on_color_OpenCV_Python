@@ -41,6 +41,7 @@ while True:
             cv2.circle(frame,(int(x),int(y)),int(radius),(0,255,255),2)
             #draw centroid
             cv2.circle(frame,center,5,(0,0,255),-1)
+            #only need x axis using x axis we can say left right and front
             print(center[0],radius)
             if radius > 250:
                 print("stop")
